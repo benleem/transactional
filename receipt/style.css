@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+table{
+    border-spacing: 0;
+}
+
+a{
+    color: rgb(66, 135, 245);
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* Main Table */
+
+.main{
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    border-spacing: 0; 
+}
+
+/* Client Info */
+.two_columns{
+    font-size: 0;
+    text-align: center;
+}
+
+.column{
+    width:100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#c2{
+    padding: 1px 1px 0 0;
+}
+
+.column td{
+    padding: 10px 15px;
+    background-color: rgb(0, 0, 0, .02);
+    text-align: start;
+    width: 300px;
+    max-width: 100%;
+}
+
+.info_title{
+    text-transform: uppercase;
+    font-size: 11px;
+    color: grey;
+    font-weight: 300;
+}
+
+.info{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+/* Apple Services */
+
+.music td{
+    padding-top: 15px;
+}
+
+/* Apple Card */
+
+.apple_card li{
+    display: inline-block;
+    vertical-align: end;
+}
+
+.apply li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+/* Footer */
+
+.footer{
+    color: grey;
+    font-size: 12px;
+    font-weight: 300;
+    border-top: 1px solid rgb(0, 0, 0, .05);
+}
+
+.footer_top p{
+    padding-top: 15px;
+}
+
+.footer_middle p{
+    padding-top: 20px;
+}
+
+.footer_bottom li{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .section_wrapper{
+        padding: 0 2% 0 2%;
+    }
+
+    #c2{
+        padding:0;
+    }
+}
